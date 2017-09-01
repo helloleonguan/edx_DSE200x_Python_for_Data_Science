@@ -1,0 +1,19 @@
+Intro to Python & UNIX
+
+1. Python: giant ecosystem of tools for connecting and working with mane sources of real-world data across a lot of domains. 
+2. Variables: types: byte/bytearray
+3. primitive types are also objects
+4. operator <is> returns if the references point to the same object 
+5. string is immutable in Python
+6. range(start, stop[, step]) start inclusive & stop exclusive 
+7. common string functions: lower(), upper(), +, *<times>, strip(), split(), [n:m], in, find(), 
+8. string formatting: 
+> s = "we love {0} {1}"
+> s.format("data", "analysis")
+9. common list functions: len(), append(), pop(<i>), remove(<elem>), extend(), zip()
+10. list: y = x 2 refs to the same object because list is mutuable 
+11. tuples are immutable
+12. dictionaries (unordered): we can use a tuple as key 
+13. common dict functions: get(), in, pop(), items()
+14. comprehension: [<elem>/<k:v> for <i> in <list/range>]
+15. common set functions: set([]), add(), discard(), remove(), union(), intersection(), |, & 
