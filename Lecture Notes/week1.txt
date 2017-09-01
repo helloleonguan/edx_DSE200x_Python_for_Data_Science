@@ -1,0 +1,95 @@
+Week 1: Getting Started with Data Science
+
+1. Data science: big data -> insight -> action
+2. data + questions(analysis) => insights [repeatedly re-enforcement]
+3. Actionable Information: historical data + near real-time data => Prediction
+4. How much data is big data: 
+    a) mostly data in TB or EB
+    b) Scientific Data Magagement Organizations: HPWREN, MODIS, LIGO, Deep Space Network and etc.
+5. GB => TB => PB => EB => ZB
+6. Data Explosion: 0.8 ZB in 2009 => 35.2 ZB in 2020 
+7. Programming Skills:
+    a) Python
+    b) Stats
+    c) Machine Leanring
+    d) Scalable Big Data Analysis
+
+8. Features of Data Science: 
+    1. Maths expertise
+    2. Computing 
+    3. Business Insights / Domain Knowledge
+9. Traits of Data scientist:
+    1. Passion for data
+    2. Relate problem to analytics
+    3. Care about engineering solutions
+    4. Exhibit curiosity
+    5. Communicate with teammates
+10. Why use Python:
+    1. easy to read & learn
+    2. vibrant community
+    3. rich libraries
+    4. applicable to each step in data science process
+    5. Jupyter notebook
+11. Toolkit:
+    1. Jupyter notebook
+    2. NumPy
+    3. Pandas
+    4. Matplotlib
+    5. Scikit-learn
+    6. BeautifulSoup
+
+## Case Study: Soccer Data Analysis
+12. Goals: 
+    a) form meaningful players groups
+    b) discover other players that are similar to your favorite athlete
+    c) Form strong teams by using analytics
+13. Insights on player strengths, enhancing performance, critical attributes for a player's performance
+14. Key steps in a Data Science Project
+    a) Acquire
+    b) Prepare
+    c) Analyze
+    d) Report 
+    e) Act
+15. Data Collection from Diverse Sources
+    1. Databases
+    2. Text files
+    3. Live feeds
+16. Data Ingestion to Analytics Platform(Python)
+17. Data Preparation: Explore using Statistics
+18. Data Cleaning: missing values, outliners, Nulls -> removal or interpolation
+19. Data Visualization
+20. Analysis & Modeling: supervised/unsupervised/semi learning 
+21. Feature Selection: the most important/critical features & complex features can also be contructed
+22. Interpreting Results: distributions, uniqueness
+23. Presenting outcomes: how to interpret the results
+
+Data Science Processes
+24. data + a question in mind
+25. acquire -> prepare -> analyze -> report -> act
+26. form a data science problem & assess the situation & define objectives & criteria
+27. I - acquire data: identify dataset, retrieve data, query data
+1) what data is available? 
+2) data sources: SQL/NoSQL databases, text files, from websites (REST API) and programming interfaces
+28. prepare: explore data, pre-process data
+1) preliminary investigations: correlations (dependencies), general trends (how data change over time), outliers (double check data), summary statistics (mean, median, mode, range, s.d.)
+2) visualizations: they can give you a rough impression to show data distribution/how data changes over time
+3) pre-processing data: clean the data (inconsistencies, duplicates, missing values, invalid data, outliers --- we can remove, merge, generate estimates bad data points - we need domain knowledge to do this) and then transform the data (scaling, transformation, feature selection, dimensionality reduction(e.g. PCA), manipulation)
+ -- remember garbage in = garbage out
+29. analyze: select analytical techniques & build models
+1) classification: predict the category
+2) regression: predict numeric values
+3) clustering: organize similar items into groups
+4) association analysis: find rules to capture associations between items
+5) graph analytics: use graph structures to find connections between entities
+-- Modelling: select technique, build model, validate model(reserved data)
+Further questions: repeat analysis/take deeper dive/act on results
+30. report: evaluation & present results & visualization
+1) determine what to present: main results/any values/models (present all findings even if it is puzzling & inconclusive)
+31. act on data: apply results into practice 
+1) actionable insghts: automation & stakeholders (OR real-time actions)
+2) evaluations for further experimentation
+
+Installation
+32. python 3.x 
+33. any prompt:> jupyter notebook
+34. configuration issues: https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions
