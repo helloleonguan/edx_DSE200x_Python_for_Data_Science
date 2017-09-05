@@ -2,4 +2,17 @@ Jupyter Notebook & Numpy
 
 Jupyter notebook:
 1. Benefits: documented data science & reproducible science & presentation of results & support Julia, Python & R
-2. 
+2. To run a code cell: a) use the run button >| b) press Shift+Enter
+3. _ refers to the last output
+4. Press Esc to exit editing mode
+5. For documenting, Jupyter notebook has Markdown Format. (e.g. Markdown Cell type) It also can be used for LateX formmatting. => For writing research findings/papers. 
+6. Add explanations below the graph or above the code block. 
+7. under the Kernel, there are different run options. 
+8. To produce a static result doc, we can export the notebook as a HTML file. 
+9. Unix commands can also be executed in Jupyter notebook by adding a '!' before each command. 
+10. $ referencing a variable in UNIX command. 
+
+Numpy:
+11. Primary package for scientific computing in Python
+12. features: multi-dimensional arrays, built-in array operations, broadcasting, fast (integration of other languages), many packages built upon Numpy. 
+13. 
