@@ -17,3 +17,27 @@ Intro to Python & UNIX
 13. common dict functions: get(), in, pop(), items()
 14. comprehension: [<elem>/<k:v> for <i> in <list/range>]
 15. common set functions: set([]), add(), discard(), remove(), union(), intersection(), |, & 
+
+
+16. UNIX provides: file management, data manipulation, simple scripting. 
+17. Shell is the interface between programs and kernel. Run commands. 
+18. . refers to the working directory & .. refers to the parent directory. ~ refers to the home directory. 
+19. common commands
+ls <-l>|<-a>|<path>, cd, clear, cat, man <command>(manual pages), mkdir, *(wild card), cp|mv <from> <to>, more, sort, uniq, wc, who, ps, paste, cut 
+pwd: print current working directory.
+20. stdin, stdout, stderr 
+21. Redirecting: 
+> command < somefile -- read from
+> command > afile1 -- output to 
+> command 1> afile2 -- explicitly as FD1
+> command 2> afile3 -- output stderr to
+> command 2> afile4 > afile5 -- separate stderr & stdout
+>  .... >> .... -- append 
+>  .... 2>&> file -- to the same file
+22. ';' is used to have multi-line commands
+23. /dev/null: not storing/showing anything
+24. Pipes & Filters
+|: send output from previous command to next command
+Filter commands: grep, more, less, sort, uniq
+25. Exploratory Data Analysis in UNIX
+head, tail, cur, sed, find, tr, gnuplot

@@ -1,0 +1,5 @@
+Jupyter Notebook & Numpy
+
+Jupyter notebook:
+1. Benefits: documented data science & reproducible science & presentation of results & support Julia, Python & R
+2. 
