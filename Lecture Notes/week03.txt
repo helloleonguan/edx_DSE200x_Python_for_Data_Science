@@ -15,4 +15,13 @@ Jupyter notebook:
 Numpy:
 11. Primary package for scientific computing in Python
 12. features: multi-dimensional arrays, built-in array operations, broadcasting, fast (integration of other languages), many packages built upon Numpy. 
-13. 
+13. import numpy as np
+14. ndarrays are mutable
+15. Rank n array = n-demensional array 
+16. slices are just references to original data arrays, changing values will cause the original data array to be changed. If want to make a copy, use np.array(). 
+17. boolean index: the same-sized array but with T/F values
+18. common functions on narray: [dtype], +/-/*/... , mean(), sum(), np.median(), np.unique(), np.intersect1d(), np.union1d(), setdiff1d(), in1d() 
+19. broadcasting: when operations on 2 arrays, 2 dimensions are compatible when they are equal or  1 of them is 1. 
+
+Satellite Image Example:
+20. 8-bit for each of RGB (0,0,0) = Balck, (255, 255, 255) = White
