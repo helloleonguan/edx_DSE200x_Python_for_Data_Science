@@ -1,0 +1,23 @@
+Pandas 
+
+1. Panda Series: 1-d labeled data & Data Frame: 2-d labeled data, columns can be of diff types.
+2. import, transform, visualize 
+3. import pandas as pd (index + data)
+4. Series is heterpgeneous. data can be of diff types.
+5. ser[] or ser.loc[] to access values or the iloc function
+6. DataFrame: a stack of Series & each observation has its index & each column has its own label
+7. we can convert a list of Python dict to DataFrame
+8. df[<column>] to access column & df[num] to access observations
+9. df.pop(<column>) pop & remove a column. del df[<column>] does the same thing but does not pop it to a var. 
+
+Data Ingestion: import data
+1. csv, jason, html, sql tables & queries and etc. can be imported into pandas.
+2. to have a peek at the data file: !head -10 <text file>
+
+Descriptive Statistics
+1. sd[<column>].describe()
+2. df.corr(): pairwise correlations
+3. min(), max(), mode(), median(), mean(), std(), any(), all() more: count(), clip(), rank(), round() 
+4. filter.any() similar for all() 
+
+Data Cleaning 
