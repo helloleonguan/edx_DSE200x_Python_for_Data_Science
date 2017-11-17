@@ -21,3 +21,13 @@ Descriptive Statistics
 4. filter.any() similar for all() 
 
 Data Cleaning 
+1. Missing values, fill gaps, drop fields, interpolation
+2. common functions: replace(), fillna(), dropna(), interpolate(), isnull()
+
+Data Visualisation
+1. df.plot is used for simple plotting - bar(), box(), hist(), line graph without function
+2. %matplotlib inline is used for simple plotting 
+
+Frequent Data Operations 
+1. df["col1"], df[df[] > 0], df["col4"] = broadcast functions - assignment , df.loc[], df.drop(), del, df.groupby()
+
