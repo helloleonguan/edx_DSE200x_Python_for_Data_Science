@@ -7,4 +7,6 @@ Intro to Data Visualization
 
     accessible: focus on the audience, readability, have clear purpose of the visualization 
     
-    elegant: focus on what is relevant, be stylish if possible
+    elegant: focus on what is relevant, be stylish if possible, think about decorations
+
+    
