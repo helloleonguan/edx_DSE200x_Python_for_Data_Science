@@ -31,3 +31,14 @@ Data Visualisation
 Frequent Data Operations 
 1. df["col1"], df[df[] > 0], df["col4"] = broadcast functions - assignment , df.loc[], df.drop(), del, df.groupby()
 
+Merging DataFrames 
+1. pd.concat(): same df - stacking, diff df - join in SQL with the operation of inner join, left.append(right), pd.merge() - remove duplicates
+
+String Operations
+1. str.split(), str.contains(), str.replace(), str.extract()
+
+Parsing Timestamps
+1. unix time: number of seconds since 1970, 1, 1 - 00:00:00 UTC (int64)
+2. <M8[ns]: to_datetime() 2015-12-24 13:00:00 
+3. sort_values() to sort timestamps
+
