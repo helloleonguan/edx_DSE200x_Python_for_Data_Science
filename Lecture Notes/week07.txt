@@ -1,0 +1,20 @@
+Introduction to ML
+
+1. learning from data on its own, perform a specific task to discover hidden pattern. 
+2. amount of data and quality are the keys
+3. e.g. digital fraud detection, hand-written digit recognition, recommendation on websites, predictive analytics
+4. Data mining: in database or warehouse
+
+5. Classification: predicting category
+6. Regression: predicting numeric value
+7. Clustering: organize similar items into groups 
+8. Association: find rules to capture associations between items
+
+9. Supervised Approaches: having labeled data. e.g. classification & regression
+10. Unsupervised Approaches: target is unknown, unlabeled data. e.g. clustering & association
+
+Terminology
+11. data types: numeric, categorical, strings
+
+12. scikit-learn: extensive set of tools, nice doc. 
+
