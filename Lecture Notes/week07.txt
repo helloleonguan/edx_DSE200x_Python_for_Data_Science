@@ -18,3 +18,41 @@ Terminology
 
 12. scikit-learn: extensive set of tools, nice doc. 
 
+Classification (supervised)
+1. target is categorical
+2. binary classification: only 2 target values
+3. parameters: input data (exclude the category)
+4. training model - adjust model parameters & use training data
+5. testing phase - use test data (unused) to test the model
+6. common classification algorithms: kNN, Decision Tree, Naive Bayes
+7. Decision tree: 
+    idea: splitting the data into pure regions
+    structure: root_node, internal node: branching condition, leaf node: category
+    induction algorithm: find the best way to split the data 
+    more homogeneous -> more pure by gini index and etc.
+    stopping conditions: all samples have same class label, number of samples in node reaches min, chang in impurit measure is smaller than threshold, max depth is reached
+    resulting tree is often simple and easy to interpret, induction is computationally inexpensive 
+8. train_test_split(x, y, test_size, random_state) to split training data and testing data 
+9. fit() & predict() 
+10. accuracy_score(y_true, y_pred) to measure the accuracy of the model
+
+Clustering(unsupervised)
+1. similar items are placed in the same cluster & intra dis is minimized
+2. metric: euclidean dis, manhattan dis, cosine similarity
+3. normalizing input variables: scaling - depending on the magnitude 
+4. clusters don't come with labels so inprepretation & analysis requireed to understand the results 
+5. e.g. data segmentation, application on new data points, anomaly detection
+6. k-means clustering:
+    pick k initial centroids, repeatedly assign each sample to the closest centroid, calculate the mean of cluster to determine new centroid (close to clusters)
+    issues: sensitive to initial centroids - sol: random initial centroid mtultiple times
+    measure: within cluster sum of squared error - dis between sample & centroid (larger k will reduce WSSE but not the 'best')
+    determining k is crucial - by visualization of sample distribution or by domian knowledge or data-driven (elbow method)
+    stopping criteria: no changes to centroids, number of samples changing clusters is below thresholds 
+7. StandardScalar().fit_transform(df) to scale/normalize the dataset
+
+Regression Analysis (supervised)
+1. predicting target is numerical 
+2. validation data: determine when to stop training to avoid overfitting, estimate generalization performance
+3. linear regression: best-fitting line to ensure minimum least squares
+4. root mean square error: 0 = no error, e.g. sqrt(mean_squared_error())
+5. decision tree regressor: sometimes a better approach 
