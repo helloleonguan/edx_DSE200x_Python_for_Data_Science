@@ -1,2 +1,28 @@
 SQL Databases
 
+1. maybe defined to be have no duplicates, schema must be satiefied. 
+2. data retrieval: how to specify a data request & internal mechanism
+3. SQL: 
+    a) SELECT (DISTINCT)..
+       FROM ..
+       WHERE ..
+       LIMIT ..
+4. cursor is an interface object to the database.
+
+
+NLP using NLTK
+
+1. examples: speech recognition, auto-translation, chat bots
+2. nltk corpora(corpus)
+3. tokenization: split text into words
+4. punkt: trained English tokenizer
+5. bag-of-words: collection of words where each word is determined to be either True or False. But first eliminate stop words & punctuations. 
+6. frequency words analysis: plotting words frequency. 
+7. Sentiment Analysis: identify attitude or emotion encoded in texts
+8. Naive Bayes Classifier: simple classifier based on conditional probabilities. (in nltk)
+
+
+Twitter text analysis (Twitter API)
+
+1. Twitter API: to access all tweets on the website. 
+2. see the notebook. 
