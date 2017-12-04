@@ -1,6 +1,110 @@
 **** Review the Proctored exam set-up and practice exam before final exam ****
 
 Week 6 Mini Project 
-1. choose 1 of the datasets we have explored, pick a question and try to answer it. 
+
+What has been covered so far: Intro to DS, Numpy, Pandas, Matplotlib.
+
+
+1. choose 1 of the datasets we have explored, pick a research question and try to answer it. 
 2. Deliverables: Short answers to a few questions and the entire notebook
 3. Peer Assessment: grade seriously + constructive feedback, be fair & respectful. 
+
+Marking rubric:
+<Dataset Slide>  Did the author say which dataset they are using?
+
+1- Yes.  They provided information on what data they are using from the three we used in the beginning of the course.
+
+0 - Absent.  No dataset provided.
+
+  
+
+<Motivation Slide> Did the author motivate you to care about the issue/problem they are trying to address/solve well?
+
+2 - Well.  The motivation for the project is clear.
+
+1 - Fairly well.  A motivation was provided but it isn¡¯t clear why the work is valuable or for whom.
+
+0 - Absent.  No motivation provided.
+
+ 
+
+<Research Question Slide>  How appropriate was the research question for the data?
+
+2 - Appropriate.  They provided a research question which was appropriate given the data in the dataset.
+
+1 - Too Narrow.  They provided a research question, however it felt too narrow for a full data-analysis (e.g., it asks for a single datapoint, not an analysis of the data).
+
+1 - Too Broad .  They provided a research question, however it felt too broad given this dataset (e.g., it asks to reach a sweeping conclusion which is too broad for one dataset).
+
+0 - Not provided.  No research question provided.
+
+  
+
+<Findings Slide(s)>  Are their findings well presented?  (Remember, they need not reach a definitive answer to the research question, but they need to articulate what they found clearly and how it relates to the original research question.)
+
+3 - Very well.  The research findings are well articulated and presented.
+
+2 - Well.  The research findings are presented, however the results were not clear.
+
+1 - Fairly well.  The research findings were not well presented, it is unclear what they found in the study.
+
+0 - Absent.  No findings were presented.
+
+ 
+
+<Findings Slide(s)>  Please rate the quality of their visualizations.  Specifically, are the visualizations honest, accessible (for a general audience), and elegant?  One visualization is required, but if multiple are provided, please choose the best one and say which one you are using in the comments below.
+
+3 - Excellent.  The visualization(s) were honest, accessible, and elegant.
+
+2 - Very good.  However, the visualization(s) only met two of the three criteria.
+
+1 - Fair. Visualizations were provided but the met, at most, one of the three criteria.
+
+0 - Absent.  There were no visualizations provided.
+
+  
+
+<OVERALL>  Please rate the overall analysis?
+
+4 - Excellent.  The analysis was very well done.  It was motivated well and the findings were interesting.
+
+3 - Good.  The analysis was well done.  Most of the elements of the analysis were good, however, there were one or two elements lacking (which received lower marks earlier) which may partially limit its value.
+
+2 - Fair.  The analysis was fairly well done.  Some of the elements of the analysis were good, however, there were a number of elements lacking (which received lower marks earlier) which limited its value.
+
+1 - Poor.  There were serious issues throughout the analysis which severely limits its value.
+
+0 - Absent.  No pdf of their analysis slides was provided.
+
+
+Process:
+Step 2:  Continue to explore the dataset(s)
+Step 3:  Identify one research question
+Step 4:  Use appropriate methods to explore your data
+Step 5:  Present your findings
+Step 6:  Present your work!
+
+## Case Study: Soccer Data Analysis
+12. Goals: 
+    a) form meaningful players groups
+    b) discover other players that are similar to your favorite athlete
+    c) Form strong teams by using analytics
+13. Insights on player strengths, enhancing performance, critical attributes for a player's performance
+14. Key steps in a Data Science Project
+    a) Acquire
+    b) Prepare
+    c) Analyze
+    d) Report 
+    e) Act
+15. Data Collection from Diverse Sources
+    1. Databases
+    2. Text files
+    3. Live feeds
+16. Data Ingestion to Analytics Platform(Python)
+17. Data Preparation: Explore using Statistics
+18. Data Cleaning: missing values, outliners, Nulls -> removal or interpolation
+19. Data Visualization
+20. Analysis & Modeling: supervised/unsupervised/semi learning 
+21. Feature Selection: the most important/critical features & complex features can also be contructed
+22. Interpreting Results: distributions, uniqueness
+23. Presenting outcomes: how to interpret the results
