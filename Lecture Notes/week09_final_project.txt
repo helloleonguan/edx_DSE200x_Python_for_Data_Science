@@ -1,0 +1,86 @@
+Final Project 
+
+1. initial expectation: find useful dataset, form research questions, perform basic data analysis, present your findings. 
+2. Week 9 TODO: find a dataset, explore the dataset, identify a research question
+3. Week 10 TODO: explore the dataset to answer the research question (including NLP & ML), present your findings, submit peer reviews. 
+4. Two example notebooks to review 
+
+
+Marking Rubric
+
+<Abstract Slide> How well did the abstract describe the project?
+3 - Very well.  It described the dataset, research question, methods, and findings well.
+2 - Well.  Three of the four elements (dataset, research question, methods, and findings) were explained well, one was not.
+1 - Fairly well.  One or two of the four elements (dataset, research question, methods, and findings) were explained, however two or more of the above items is missing.
+0 - Absent.  No abstract provided.
+
+<Abstract Slide> Was the abstract concise and clear?
+2 - Yes, very. It was concise, clear, and well written.
+1 - Yes.  However it was longer than recommended or was hard to read.
+0 - No.  No abstract provided.
+
+<Motivation Slide> Did the author motivate you to care about the issue/problem they are trying to address/solve well?
+2 - Well.  The motivation for the project is clear.
+1 - Fairly well.  A motivation was provided but it isn’t clear why the work is valuable or for whom.
+0 - Absent.  No motivation provided.
+
+<Dataset Slide>  Did the author describe the dataset well?
+2 - Well.  They provided information on what data is in the dataset, how much data, and where to find the dataset (if applicable).
+1 - Fairly well.  They provided information about the dataset however important facets of the dataset were unclear.
+0 - Absent.  No dataset provided.
+
+<Data Preparation Slide>  Did the author describe what data preparation and/or cleaning was required?
+1 - Yes.  They provided basic information on what data preparation was required.
+0 - No.  No description of data preparation was provided.
+
+<Research Question(s) Slide>  How appropriate was the research question for the data?
+2 - Appropriate.  They provided a research question which was appropriate given the data in the dataset.
+1 - Too Narrow.  They provided a research question, however it felt too narrow for a full data-analysis (e.g., it asks for a single datapoint, not an analysis of the data).
+1 - Too Broad .  They provided a research question, however it felt too broad given this dataset (e.g., it asks to reach a sweeping conclusion which is too broad for one dataset).
+0 - Absent.  No research question provided.
+
+<Method Slide> How well were the research methods articulated?
+2 - Well. It was clear from their methods how they were analyzing the data.
+1 - Fairly well. Methods were provided but it was not clear how they were being used and for what data.
+0 - Absent.  No methods provided.
+
+<Method Slide> How appropriate were the research methods used?
+3 - Unsure. If you are unsure or don’t feel qualified to assess the research methods, please select this option.
+3 - Very appropriate.  These are reasonable research methods to answer the research question (e.g., the author is using regression to predict a numeric value).  
+2 - Possibly Appropriate.  The methods described may not be ideal for this approach or the methods are not described well enough to tell.
+1 - Not appropriate.  Methods, as described, are inappropriate (e.g., they are using both their training and test sets when building the machine learning model).
+0 - Absent.  No methods provided.
+
+<Findings Slide(s)>  Are their findings well presented?  (Remember, they need not reach a definitive answer to the research question, but they need to articulate what they found clearly and how it relates to the original research question.)
+3 - Very well.  The research findings are well articulated and presented.
+2 - Well.  The research findings are presented, however the results were not clear.
+1 - Fairly well.  The research findings were not well presented, it is unclear what they found in the study.
+0 - Absent.  No findings were presented.
+
+<Findings Slide(s)>  Please rate the quality of their visualizations.  Specifically, were their visualizations honest, accessible (for a general audience), and elegant?  One visualization is required, but if multiple are provided, please choose the best one and say which one you are using in the comments below.
+3 - Excellent.  The visualization(s) were honest, accessible, and elegant.
+2 - Very good.  However, the visualization(s) only met two of the three criteria.
+1 - Fair. Visualizations were provided but the met, at most, one of the three criteria.
+0 - Absent.  There were no visualizations provided.
+
+<Limitations Slide>  Did the author describe appropriate limitations to their results?
+2 - Yes-well.  Limitations were well described.
+1 - Yes-partially.  Limitations were described but clear limitations were absent from their response (e.g., their analysis was limited to wealthy adults in a single country but they did not mention this limitation in their presentation - assuming their sampling was appropriate for all people).
+0 - No.  No limitations were described.
+
+<Conclusions Slide>  Please rate the quality of the authors conclusions:
+3 - Excellent.  The results of the work were well summarized, accurately portrayed, and well written.
+2 - Good.  The conclusion was missing applicable elements or was poorly written. 
+1 - Fair.  The conclusion was missing important elements or the conclusion was not warranted given the findings (e.g., too broad of claims were made, the claims were misleading, etc.)
+0 - Absent.  No conclusion was provided.
+
+<References Slide>  Did the author provide appropriate references?
+1 - Yes. Either they did the work entirely on their own or they referenced appropriate materials.
+0 - No.  They failed to reference a clear source.
+
+<OVERALL>  Please rate the overall analysis?
+4 - Excellent.  The analysis was very well done.  It was motivated well, the methods were appropriate, and the findings were interesting.
+3 - Good.  The analysis was well done.  Most of the elements of the analysis were good, however, there were one or two elements lacking (which received lower marks earlier) which may partially limit its value.
+2 - Fair.  The analysis was fairly well done.  Some of the elements of the analysis were good, however, there were a number of elements lacking (which received lower marks earlier) which limited its value.
+1 - Poor.  There were serious issues throughout the analysis which severely limits its value.
+0 - Absent.  No pdf of their analysis slides was provided.
